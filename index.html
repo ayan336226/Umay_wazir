@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMA_WAZIR</title>
+
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  </head>
+    <style>
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    background: linear-gradient(135deg, #ed31be, #570242) ;
+    flex-wrap: wrap;
+}
+.nav-links ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+.nav-links ul li{
+    list-style: none;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-links ul li a:hover{
+    color: #f7bae8;
+}
+@media screen and (max-width:450px){
+    .nav-links-li a{
+        display: none;
+    }
+}
+.sec-1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+         
+  background:    linear-gradient(100deg, rgba(248, 157, 205, 0.9), rgba(252, 62, 151, 0.5)),
+    url("548847845_808146491580077_6982841322197108563_n.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+flex-wrap: wrap;
+text-align: center;
+}
+.sec-1-img2 img{
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    border: #570242 8px solid;
+    
+}
+.sec-1-img2{
+    padding-top: 30px;
+}
+@media screen and (max-width:350px){
+    .sec-1-img2 img{
+            height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    border: #570242 8px solid;
+    }
+}
+.sec-1-img{
+    padding-bottom: 20px;
+}
+.sec-1-img button{
+    padding: 10px;
+    background-color: #ed31be;
+    color: #f8cbed;
+    border-radius: 10px;
+    font-size: 16px;
+
+} 
+.sec-1-img button:hover{
+    background-color:#f96cd6 ;
+    color: #570242;
+}
+
+.sec-2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+            
+  background:    linear-gradient(100deg, rgba(247, 3, 190, 0.9), rgba(135, 81, 117, 0.9)),
+    url("550299277_1981193779298265_8860718392788865780_n.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.sec-2-row-1{
+    display: flex;
+gap: 20px;
+justify-content: center;
+flex-wrap: wrap;
+}
+.sec-2-row-2{
+    display: flex;
+gap: 20px;
+justify-content: center;
+flex-wrap: wrap;
+}
+.sec-2-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px rgb(249, 111, 147) solid;
+    padding: 10px;
+}
+.sec-2-content p{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sec-2-content a{
+    color: rgb(77, 4, 36);
+    text-decoration: none;
+    font-size: 18px;
+}
+.sec-2-content a:hover{
+    color: rgb(254, 112, 155);
+}
+.sec-2-head h2{
+    color: white;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+}
+.sec-2-head{
+    padding-bottom: 30px;
+   
+}
+.sec-2-content img{
+    height: 300px;
+    width: 320px;
+}
+@media screen and (max-width:400px){
+    .sec-2-content img{
+            height: 200px;
+    width: 220px;
+}
+    
+
+}
+
+
+
+.sec-4{
+            
+  background:    linear-gradient(100deg, rgba(246, 93, 174, 0.9), rgba(118, 3, 57, 0.5)),
+    url("549787440_1278307533936991_8311792811221864488_n.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.sec-4-head h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    color: #073bac;
+    padding-top: 30px;
+}
+.sec-4-content{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+   padding-top: 40px;
+   flex-wrap: wrap;
+}
+.sec-4-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.sec-4-text p{
+    color: #cfe5fa;
+}
+.sec-4-text h1{
+    color: #021339;
+}
+.sec-4-text-icons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.social-icons a {
+  font-size: 1.2rem;
+  color: #555;
+  background: #eee;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+.social-icons a:hover{
+background-color: black;
+color: whitesmoke;
+
+}
+
+@media screen and (max-width:570px){
+    .sec-4-img img{
+height: 200px;
+width:300px ;
+    }
+}
+@media screen and (max-width:360px){
+    .sec-4-img img{
+height: 100px;
+width:200px ;
+    }
+}
+@media screen and (max-width:300px){
+    .sec-4-head h1{
+        font-size: 30px;
+    }
+    .sec-4-text h1{
+        font-size: 20px;
+    }
+    .sec-4-text p{
+        font-size: 12px ;
+    }
+}
+
+
+
+/* Footer */
+footer {
+ background: #7d225f;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 40px;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.footer-links {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #c8e6c9; /* light green hover */
+}
+
+footer p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.sec-4-text-icons{
+    padding-bottom: 70px;
+}
+.sec-1-content h1{
+    color: #61022a;
+}
+    </style>
+
+<body>
+    <nav class="navbar">
+<div class="nav-logo">
+    <h1>Uzma <span style="color: #f8cbed;">Wazeer</span></h1>
+</div>
+<div class="nav-links">
+<ul>
+    <li class="nav-links-li"><a href="social1.html">Home</a></li>
+     <li class="nav-links-li"><a href="social1.html">About</a></li>
+      <li class="nav-links-li"><a href="social1.html">More</a></li>
+</ul>
+</div>
+
+
+
+    </nav>
+
+     <section class="sec-1">
+        <div class="sec-1-img2">
+<img src="548847845_808146491580077_6982841322197108563_n.jpg" alt="uma">
+        </div>
+<div class="sec-1-content">
+    <h1>One  Beautiful <br> <span style="color: rgb(248, 25, 88); font-size: 48px;">Girl..</span> </h1>
+
+</div>
+<div class="sec-1-img">
+<button>More about UZMA_</button>
+</div>
+ </section>
+
+
+ <!-- Section-2 -->
+ <section class="sec-2">
+    <div class="sec-2-head">
+        <h2>More <span style="color: #f5498e;">Images</span></h2>
+
+    </div>
+    <div class="sec-2-row-1">
+    <div class="sec-2-content">
+        <img src="549787440_1278307533936991_8311792811221864488_n.jpg" alt="uma">
+        <p>Stay Happy and take care of yourself.</p>
+        <a href="social1.html">More ➡</a>
+    </div>
+     <div class="sec-2-content">
+        <img src="550299277_1981193779298265_8860718392788865780_n.jpg" alt="uma">
+        <p>Fake smile to hide pains. </p>
+        <a href="social1.html">More ➡</a>
+    </div>
+     <div class="sec-2-content">
+        <img src="549425040_1292034738651101_6194365692641029530_n.jpg" alt="uma">
+        <p>Sometimes try  to feel a nature.</p>
+        <a href="social1.html">More ➡</a>
+    </div>
+    </div>
+    <div class="sec-2-row-2">
+<div class="sec-2-content">
+        <img src="548847845_808146491580077_6982841322197108563_n.jpg" alt="uma">
+        <p>Pankh laya huun main chal udh chale.</p>
+        <a href="social1.html">More ➡</a>
+    </div>
+     <div class="sec-2-content">
+        <img src="549277148_2198894277277255_247398968218729496_n.jpg" alt="uma">
+        <p></p>
+        <a href="social1.html">More ➡</a>
+    </div>
+     <div class="sec-2-content">
+        <img src="548587908_17909684823219642_7991137791830824386_n.jpg" alt="uma">
+        <p>NO CAPTION.</p>
+        <a href="social1.html">More ➡</a>
+    </div>
+    </div>
+  
+
+ </section>
+
+
+
+ <!-- section-4 -->
+ <section class="sec-4">
+    <div class="sec-4-head">
+        <h1>UMA__<span style="color: #cfe5fa;">__💖</span></h1>
+    </div>
+<div class="sec-4-content">
+   <div class="sec-4-img">
+<img src="" alt="uma">
+   </div>
+    <div class="sec-4-text">
+<h1>Follow for more</h1>
+<p>Remember that:  <br> Don't try to contact me.</p>
+<div class="sec-4-text-icons social-icons">
+   <a href="social1.html" target="_blank"><i style="color: blue; border-radius: 10%; " class="fab fa-facebook-f"></i></a>
+   <a href="social1.html" target="_blank"><i style="color: rgb(241, 58, 149); border-radius: 10%; " class="fab fa-instagram"></i></a>
+   <a href="social1.html" target="_blank"><i style="color: rgb(27, 27, 28); border-radius: 10%; " class="fab fa-tiktok"></i></a>
+</div>
+    </div>
+
+
+</div>
+ </section>
+
+ <!-- Footer -->
+<footer>
+  <div class="footer-container">
+    <!-- Quick Links -->
+    <div class="footer-links">
+      <a href="uma.html">Home</a>
+      <a href="social1.html">About</a>
+      <a href="social1.html">Beauty</a>
+      <a href="social1.html">Contact</a>
+    </div>
+
+    <!-- Copyright -->
+    <p>&copy; 2025 Uzma Wazeer | All Rights Reserved.</p>
+  </div>
+</footer>
+</body>
+</html>
